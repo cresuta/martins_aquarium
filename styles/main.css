@@ -1,3 +1,75 @@
-#fishtank {}
-.fish {}
-.fish_name {}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+main > article {
+  flex: 1;
+  order: 1;
+}
+
+main > nav,
+main > aside {
+  flex: 0 0 20vw;
+}
+
+main > nav {
+  background: #d7e8d4;
+  order: 3;
+}
+
+main > aside {
+  background: beige;
+  order: 2;
+}
+
+header {
+  background: lightgrey;
+}
+
+header,
+footer,
+article,
+nav,
+aside {
+  padding: 1em;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: lightgrey;
+  height: 10vh;
+}
+
+.fish-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fish-tips-heading {
+  text-align: center;
+}
