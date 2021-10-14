@@ -8,7 +8,6 @@ export const fishList = () => {
     let fishHTMLRepresentation = "";
     for(let singleFishObj of fishes) {
         fishHTMLRepresentation += fish(singleFishObj);
-        fish(singleFishObj);
     }
    
     fishList.innerHTML += `

@@ -17,10 +17,10 @@ export const fish = (fish) => {
                 </p>
               </div>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">${fish.typeOfFish}</li>
-                <li class="list-group-item">${fish.length}</li>
-                <li class="list-group-item">${fish.locationHarvested}</li>
-                <li class="list-group-item">${fish.diet}</li>
+                <li class="list-group-item">Species: ${fish.typeOfFish}</li>
+                <li class="list-group-item">Size: ${fish.length}"</li>
+                <li class="list-group-item">Harvest Location: ${fish.locationHarvested}</li>
+                <li class="list-group-item">Diet: ${fish.diet}</li>
               </ul>
             </div>
           </div>

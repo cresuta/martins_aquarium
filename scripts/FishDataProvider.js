@@ -6,7 +6,7 @@ const fishCollection = [
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
         image: "imgs/Goldfish_BlackMoor.png",
-        description: 
+        description: "Unlike other fancy goldfish types, this breed is extremely enduring and can make good pets for new fishkeepers."
     },
     {
         name: "Pacific",
@@ -14,7 +14,8 @@ const fishCollection = [
         length: 2,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
-        image: "imgs/Goldfish_BlackMoor.png"
+        image: "imgs/bubble-eye-fish.png",
+        description: "One of the most fragile goldfish types and probably the slowest swimmers."
     },
     {
         name: "Finley",
@@ -22,7 +23,8 @@ const fishCollection = [
         length: 3,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
-        image: "imgs/Goldfish_BlackMoor.png"
+        image: "imgs/Goldfish_Celestial.png",
+        description: "Nicknamed “stargazers” because their eyes are locked upward."
     },
     {
         name: "Tin Fin",
@@ -30,7 +32,8 @@ const fishCollection = [
         length: 3,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
-        image: "imgs/Goldfish_BlackMoor.png"
+        image: "imgs/Goldfish_Comet.png",
+        description: "Bred in the United States, the Comet goldfish is more playful and active than most other goldfish breeds."
     },
     {
         name: "Tiny Fin",
@@ -38,7 +41,8 @@ const fishCollection = [
         length: 2,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
-        image: "imgs/Goldfish_BlackMoor.png"
+        image: "imgs/Goldfish_FanTail.png",
+        description: "One of the hardiest fancy varieties, Fantail goldfish are recognizable for their split caudal fin.",
     },
     {
         name: "Hulk",
@@ -46,7 +50,8 @@ const fishCollection = [
         length: 1,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
-        image: "imgs/Goldfish_BlackMoor.png"
+        image: "imgs/Goldfish_LionHead.png",
+        description: "Lacking a fin on their back (dorsal fin), Lionheads swim very slowly."
     },
     {
         name: "Flash",
@@ -54,7 +59,8 @@ const fishCollection = [
         length: 1,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
-        image: "imgs/Goldfish_BlackMoor.png"
+        image: "imgs/Goldfish_Oranda.png",
+        description: "Like Lionheads, Orandas also have unique head growth called wen."
     },
     {
         name: "Mahi Mahi",
@@ -62,7 +68,8 @@ const fishCollection = [
         length: 2,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
-        image: "imgs/Goldfish_BlackMoor.png"
+        image: "imgs/Goldfish_Ryukin.png",
+        description: "These fish are hardy and a good choice for beginners. Ryukins are known for the large hump behind their heads."
     },
     {
         name: "Floaty",
@@ -70,7 +77,8 @@ const fishCollection = [
         length: 3,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
-        image: "imgs/Goldfish_BlackMoor.png"
+        image: "imgs/Goldfish_Shubunkin.png",
+        description: "Known for their calico pattern, Shubunkins are very resilient and make a good first pet for new fish owners."
     },
 ]
 
