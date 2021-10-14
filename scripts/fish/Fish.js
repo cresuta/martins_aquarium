@@ -1,4 +1,4 @@
-import { useFish } from "../fish-components/FishDataProvider.js"
+import { useFish } from "../fish/FishDataProvider.js"
 
 export const fish = (fish) => {
     return `

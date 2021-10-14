@@ -13,7 +13,7 @@ main {
   display: flex;
 }
 
-.fish-tips {
+.tipList {
   background: beige;
   flex-basis: 40vw;
 }
@@ -41,7 +41,7 @@ footer {
   height: 10vh;
 }
 
-.fish-list {
+.tipList {
   display: flex;
   justify-content: center;
   align-items: center;
