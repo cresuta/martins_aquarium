@@ -15,7 +15,7 @@ main {
 
 .fish-tips {
   background: beige;
-  flex-basis: 20vw;
+  flex-basis: 40vw;
 }
 
 header {
@@ -61,14 +61,22 @@ header {
 .martin-info {
   display: flex;
   justify-content: center;
-  border: 1px dotted red;
-  padding: 1em;
+  /* border: 13px dotted red; */
+  padding: 2em;
 }
 
 .martin-visited {
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .martin-quotes {
   border: 1px solid orchid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,5 +1,5 @@
-import { useFish } from "./FishDataProvider.js";
-import { fish } from "./Fish.js";
+import { useFish } from "../fish-components/FishDataProvider.js";
+import { fish } from "../fish-components/Fish.js";
 
 export const fishList = () => {
     const fishList = document.querySelector(".fishList");

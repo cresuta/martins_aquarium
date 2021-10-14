@@ -1,6 +1,6 @@
-import { useFish } from "./FishDataProvider.js";
-import { fishList } from "./FishList.js";
-import { fish } from "./Fish.js";
+import { useFish } from "../scripts/fish-components/FishDataProvider.js";
+import { fishList } from "../scripts/fish-components/FishList.js";
+import { fish } from "../scripts/fish-components/Fish.js";
 
 const allFish = useFish();
 
