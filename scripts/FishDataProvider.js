@@ -1,66 +1,78 @@
 const fishCollection = [
     {
         name: "Captain Jack",
-        species: "Black Moor",
+        typeOfFish: "Black Moor",
         length: 1,
-        location: "Pet Smart",
-        diet: "Fish Food"
+        locationHarvested: "Pet Smart",
+        diet: "Fish Food",
+        image: "imgs/Goldfish_BlackMoor.png"
     },
     {
         name: "Pacific",
-        species: "BubbleEye",
+        typeOfFish: "BubbleEye",
         length: 2,
-        location: "Pet Smart",
-        diet: "Fish Food"
+        locationHarvested: "Pet Smart",
+        diet: "Fish Food",
+        image: "imgs/Goldfish_BlackMoor.png"
     },
     {
         name: "Finley",
-        species: "Celestial",
+        typeOfFish: "Celestial",
         length: 3,
-        location: "Pet Smart",
-        diet: "Fish Food"
+        locationHarvested: "Pet Smart",
+        diet: "Fish Food",
+        image: "imgs/Goldfish_BlackMoor.png"
     },
     {
         name: "Tin Fin",
-        species: "Comet",
+        typeOfFish: "Comet",
         length: 3,
-        location: "Pet Smart",
-        diet: "Fish Food"
+        locationHarvested: "Pet Smart",
+        diet: "Fish Food",
+        image: "imgs/Goldfish_BlackMoor.png"
     },
     {
         name: "Tiny Fin",
-        species: "Fantail",
+        typeOfFish: "Fantail",
         length: 2,
-        location: "Pet Smart",
-        diet: "Fish Food"
+        locationHarvested: "Pet Smart",
+        diet: "Fish Food",
+        image: "imgs/Goldfish_BlackMoor.png"
     },
     {
         name: "Hulk",
-        species: "LionHead",
+        typeOfFish: "LionHead",
         length: 1,
-        location: "Pet Smart",
-        diet: "Fish Food"
+        locationHarvested: "Pet Smart",
+        diet: "Fish Food",
+        image: "imgs/Goldfish_BlackMoor.png"
     },
     {
         name: "Flash",
-        species: "Oranda",
+        typeOfFish: "Oranda",
         length: 1,
-        location: "Pet Smart",
-        diet: "Fish Food"
+        locationHarvested: "Pet Smart",
+        diet: "Fish Food",
+        image: "imgs/Goldfish_BlackMoor.png"
     },
     {
         name: "Mahi Mahi",
-        species: "Ryukin",
+        typeOfFish: "Ryukin",
         length: 2,
-        location: "Pet Smart",
-        diet: "Fish Food"
+        locationHarvested: "Pet Smart",
+        diet: "Fish Food",
+        image: "imgs/Goldfish_BlackMoor.png"
     },
     {
         name: "Floaty",
-        species: "Shubunkin",
+        typeOfFish: "Shubunkin",
         length: 3,
-        location: "Pet Smart",
-        diet: "Fish Food"
+        locationHarvested: "Pet Smart",
+        diet: "Fish Food",
+        image: "imgs/Goldfish_BlackMoor.png"
     },
-
 ]
+
+export const useFish = () => {
+    return fishCollection.slice();
+}
