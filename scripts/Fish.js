@@ -1,3 +1,5 @@
+import { useFish } from "./FishDataProvider.js"
+
 export const fish = (fish) => {
     return `
         <div class="col">

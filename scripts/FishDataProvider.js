@@ -5,7 +5,8 @@ const fishCollection = [
         length: 1,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
-        image: "imgs/Goldfish_BlackMoor.png"
+        image: "imgs/Goldfish_BlackMoor.png",
+        description: 
     },
     {
         name: "Pacific",
