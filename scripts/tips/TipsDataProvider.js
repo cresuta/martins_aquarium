@@ -9,7 +9,7 @@ const tipsCollection = [
     },
     {
         title: "Float fish in their bag",
-        description: "ou will also need to acclimate your fish to the water temperature in your aquarium. For this process, you will need to float your fish in their sealed bag for at least 15-20 minutes. Every five minutes, you will need to add at least a quarter cup of aquarium water into the sealed bag until full.  After you finish this process, remove some of the water from the bag and lower it into the water to let your fish swim freely. This process combines the chemistry and temperature of your aquarium together, making the acclimation process much easier."
+        description: "You will also need to acclimate your fish to the water temperature in your aquarium. For this process, you will need to float your fish in their sealed bag for at least 15-20 minutes. Every five minutes, you will need to add at least a quarter cup of aquarium water into the sealed bag until full.  After you finish this process, remove some of the water from the bag and lower it into the water to let your fish swim freely. This process combines the chemistry and temperature of your aquarium together, making the acclimation process much easier."
     },
     {
         title: "Maintain pH balance and other chemical levels",
