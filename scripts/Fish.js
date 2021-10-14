@@ -11,10 +11,7 @@ export const fish = (fish) => {
               />
               <div class="card-body">
                 <h5 class="card-title">${fish.name}</h5>
-                <p class="card-text">
-                  Unlike other fancy goldfish types, this breed is extremely
-                  enduring and can make good pets for new fishkeepers.
-                </p>
+                <p class="card-text">${fish.description}</p>
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">Species: ${fish.typeOfFish}</li>
