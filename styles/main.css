@@ -9,19 +9,6 @@ body {
   margin: 0;
 }
 
-main {
-  display: flex;
-}
-
-.tipList {
-  background: beige;
-  flex-basis: 40vw;
-}
-
-header {
-  background: lightgrey;
-}
-
 header,
 footer,
 nav,
@@ -29,31 +16,39 @@ aside {
   padding: 1em;
 }
 
-footer {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-  background-color: lightgrey;
-  height: 10vh;
-}
-
+/* Navbar */
 header {
+  background: lightgrey;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+main {
+  display: flex;
+}
+
+/* Favorite Locations */
+.martin-info {
+  margin-top: 50px;
+}
+
+#locations-heading {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+/* Fish Tips */
 .fish-tips-heading {
   text-align: center;
   margin-top: 50px;
   text-decoration: underline;
 }
 
-#locations-heading {
-  text-align: center;
-  text-decoration: underline;
+.tipList {
+  background: beige;
+  flex-basis: 40vw;
 }
 
 .fishList {
@@ -62,8 +57,15 @@ header {
   margin-bottom: 50px;
 }
 
-.martin-info {
-  margin-top: 50px;
+/* Footer */
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: lightgrey;
+  height: 10vh;
 }
 
 .footer-container {
