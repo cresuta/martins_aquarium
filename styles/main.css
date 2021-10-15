@@ -48,6 +48,17 @@ header {
 
 .fish-tips-heading {
   text-align: center;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+
+#locations-heading {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.martin-info {
+  margin-top: 50px;
 }
 
 .martin-visited {
