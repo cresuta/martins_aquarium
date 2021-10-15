@@ -23,6 +23,31 @@ const tipsCollection = [
         id: 5,
         title: "Make sure water temperature is right",
         description: "Your tank’s water temperature should be comfortable enough to sustain aquatic life. Any major changes to your tank’s temperature can be fatal to your fish. Avoid placing your tank in an area that receives a lot of sunlight or near cooling vents. Freshwater fish need a constant water temperature between 72°F – 82°F."
+    },
+    {
+        id: 6,
+        title: "Change water regularly",
+        description: "Changing 25 percent of your aquarium’s water every month keeps your tank clean and stabilizes nitrate concentrations. You also get rid of other debris and waste products left by increased phosphate levels. Leaving these levels high puts extra stress on your fish, which can make them very sick. Consistent water temperatures allows your fish and aquatic life to stay strong and healthy."
+    },
+    {
+        id: 7,
+        title: "Clean tank glass and other structures",
+        description: "Seeing a little green in your tank isn’t usually cause for alarm, but too much of it can be detrimental. Algae buildup gives your tank a murky, swampy look, and reduces the amount of oxygen in the water. This can cause a potential loss in fish and aquatic plants in your tank."
+    },
+    {
+        id: 8,
+        title: "Choose the right size for your tank",
+        description: "It’s tempting to keep a large group of pet fish, but overcrowding your tank isn’t exactly a great idea. Overcrowding can lead to low oxygen levels, leading your fish vulnerable to disease. It can also cause excessive debris, wastes, and fatalities—all of which can reduce the quality in your water."
+    },
+    {
+        id: 9,
+        title: "Pick compatible fish species",
+        description: "Many fish species can coexist with each other under certain environments. As long as they have adequate space, food, and other necessities, fish species usually leave each other alone. Some fish species, however, tend to be quite territorial or aggressive when it comes to their homes. That’s why we suggest researching fish that can live peacefully with each other."
+    },
+    {
+        id: 10,
+        title: "Avoid overfeeding your fish",
+        description: "This one is a cardinal rule in maintaining an aquarium. Overfeeding your fish can cause a variety of problems, including increasing the amount of waste and debris in your tank. Most fish do not need to be fed a huge amount of food to survive. Overfeeding can also encourage algae growth, further depleting your water quality and oxygen. Maintain a consistent feeding schedule and provide an appropriate amount of food."
     }
 ]
 
