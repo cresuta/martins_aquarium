@@ -39,6 +39,13 @@ main {
   margin-bottom: 40px;
 }
 
+/* Mayan Fish */
+.mayan-fish {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 /* Fish Tips */
 .fish-tips-heading {
   text-align: center;
