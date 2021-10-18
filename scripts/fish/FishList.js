@@ -1,4 +1,4 @@
-import { mostHolyFish, useFish, soldierFish, nonHolyFish } from "../fish/FishDataProvider.js";
+import { useMostHolyFish, useFish, useSoldierFish, useNonHolyFish } from "../fish/FishDataProvider.js";
 import { fish, mayanFish } from "../fish/Fish.js";
 
 
@@ -22,9 +22,10 @@ export const mayanFishList = () => {
     const holyFishList = document.querySelector('.holy-fish');
     const soldierFishList = document.querySelector('.soldier-fish');
     const nonHolyFishList = document.querySelector('.nonHoly-fish');
-    const holyFish = mostHolyFish();
-    const soldierFish = soldierFish();
-    const nonHolyFish = nonHolyFish();
+
+    const holyFish = useMostHolyFish();
+    const soldierFish = useSoldierFish();
+    const nonHolyFish = useNonHolyFish();
 
     let holyHTMLRepresentation = "";
     let soldierHTMLRepresentation = "";
