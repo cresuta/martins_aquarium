@@ -89,7 +89,7 @@ export const useFish = () => {
 export const useMostHolyFish = () => {
     const holyFish = [];
     for(let fish of fishCollection) {
-        if (fish.length === 3) {
+        if (fish.length % 3 === 0) {
             holyFish.push(fish)
         }
     }
@@ -99,7 +99,7 @@ export const useMostHolyFish = () => {
 export const useSoldierFish = () => {
     const soldierFish = [];
     for(let fish of fishCollection) {
-        if (fish.length === 5) {
+        if (fish.length % 5 === 0) {
             soldierFish.push(fish)
         }
     }
@@ -109,7 +109,7 @@ export const useSoldierFish = () => {
 export const useNonHolyFish = () => {
     const regularFish = [];
     for(let fish of fishCollection) {
-        if (fish.length !== 3 && fish.length !== 5) {
+        if (fish.length % 3 !== 0 && fish.length % 5 !== 0) {
             regularFish.push(fish);
         }
     }

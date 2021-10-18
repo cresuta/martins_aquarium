@@ -43,20 +43,17 @@ export const mayanFishList = () => {
 
     holyFishList.innerHTML += `
         <div class="holy-fish">
-            <h2>Holy Fish</h2>
             ${holyHTMLRepresentation}
         </div>
     `
 
     soldierFishList.innerHTML += `
         <div class="soldier-fish">
-            <h2>Soldier Fish</h2>
             ${soldierHTMLRepresentation}
         </div>
     `
     nonHolyFishList.innerHTML += `
         <div class="nonHoly-fish">
-            <h2>Non Holy Fish</h2>
             ${nonHolyHTMLRepresentation}
         </div>
     `
