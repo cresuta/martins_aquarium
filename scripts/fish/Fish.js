@@ -1,4 +1,4 @@
-import { useFish } from "../fish/FishDataProvider.js"
+import { useFish, mostHolyFish, soldierFish, nonHolyFish } from "../fish/FishDataProvider.js"
 
 export const fish = (fish) => {
     return `
@@ -21,5 +21,12 @@ export const fish = (fish) => {
               </ul>
             </div>
           </div>
+    `
+}
+
+export const mayanFish = (fish) => {
+    return `
+      <img src=${fish.image} alt=${fish.name}/>
+      <h3>${fish.name}</h3>
     `
 }
