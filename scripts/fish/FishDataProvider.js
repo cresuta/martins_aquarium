@@ -99,7 +99,7 @@ export const useMostHolyFish = () => {
 export const useSoldierFish = () => {
     const soldierFish = [];
     for(let fish of fishCollection) {
-        if (fish.length % 5 === 0) {
+        if (fish.length % 5 === 0 && fish.length % 3 !== 0) {
             soldierFish.push(fish)
         }
     }
