@@ -2,7 +2,7 @@ const fishCollection = [
     {
         name: "Captain Jack",
         typeOfFish: "Black Moor",
-        length: 1,
+        length: 3,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
         image: "imgs/Goldfish_BlackMoor.png",
@@ -11,7 +11,7 @@ const fishCollection = [
     {
         name: "Pacific",
         typeOfFish: "BubbleEye",
-        length: 2,
+        length: 5,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
         image: "imgs/bubble-eye-fish.png",
@@ -20,7 +20,7 @@ const fishCollection = [
     {
         name: "Finley",
         typeOfFish: "Celestial",
-        length: 3,
+        length: 1,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
         image: "imgs/Goldfish_Celestial.png",
@@ -38,7 +38,7 @@ const fishCollection = [
     {
         name: "Tiny Fin",
         typeOfFish: "Fantail",
-        length: 2,
+        length: 5,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
         image: "imgs/Goldfish_FanTail.png",
@@ -47,7 +47,7 @@ const fishCollection = [
     {
         name: "Hulk",
         typeOfFish: "LionHead",
-        length: 1,
+        length: 7,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
         image: "imgs/Goldfish_LionHead.png",
@@ -56,7 +56,7 @@ const fishCollection = [
     {
         name: "Flash",
         typeOfFish: "Oranda",
-        length: 1,
+        length: 3,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
         image: "imgs/Goldfish_Oranda.png",
@@ -65,7 +65,7 @@ const fishCollection = [
     {
         name: "Mahi Mahi",
         typeOfFish: "Ryukin",
-        length: 2,
+        length: 5,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
         image: "imgs/Goldfish_Ryukin.png",
@@ -74,7 +74,7 @@ const fishCollection = [
     {
         name: "Floaty",
         typeOfFish: "Shubunkin",
-        length: 3,
+        length: 2,
         locationHarvested: "Pet Smart",
         diet: "Fish Food",
         image: "imgs/Goldfish_Shubunkin.png",
