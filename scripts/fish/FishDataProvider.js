@@ -85,3 +85,33 @@ const fishCollection = [
 export const useFish = () => {
     return fishCollection.slice();
 }
+
+export const mostHolyFish = () => {
+    const holyFish = [];
+    for(let fish of fishCollection) {
+        if (fish.length === 3) {
+            holyFish.push(fish)
+        }
+    }
+    return holyFish;
+}
+
+export const soldierFish = () => {
+    const soliderFish = [];
+    for(let fish of fishCollection) {
+        if (fish.length === 5) {
+            soliderFish.push(fish)
+        }
+    }
+    return soldierFish;
+}
+
+export const nonHolyFish = () => {
+    const regularFish = [];
+    for(let fish of fishCollection) {
+        if (fish.length !== 3 && fish.length !== 5) {
+            regularFish.push(fish);
+        }
+    }
+    return regularFish;
+}
