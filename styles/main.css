@@ -46,6 +46,19 @@ main {
   align-items: center;
 }
 
+.mayan-fish-img {
+  width: 100px;
+}
+
+.holy-fish,
+.soldier-fish,
+.nonHoly-fish {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 /* Fish Tips */
 .fish-tips-heading {
   text-align: center;

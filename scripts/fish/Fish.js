@@ -26,7 +26,7 @@ export const fish = (fish) => {
 
 export const mayanFish = (fish) => {
     return `
-      <img src=${fish.image} alt=${fish.name}/>
+      <img src=${fish.image} class="mayan-fish-img" alt=${fish.name}/>
       <h3>${fish.name}</h3>
     `
 }

@@ -109,7 +109,7 @@ export const useSoldierFish = () => {
 export const useNonHolyFish = () => {
     const regularFish = [];
     for(let fish of fishCollection) {
-        if (fish.length % 3 !== 0 || fish.length % 5 !== 0) {
+        if (fish.length % 3 !== 0 && fish.length % 5 !== 0) {
             regularFish.push(fish);
         }
     }
